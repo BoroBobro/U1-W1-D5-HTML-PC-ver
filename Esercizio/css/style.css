@@ -1,1 +1,132 @@
-/* Your styles here */
+body{
+    display: block;
+    max-width: 450px;
+    margin: 0 auto;
+    color:#6a6e71 ;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height:  1.65em;
+    border:#dee1e3;
+    
+    
+   
+}
+.background-header{
+    background-image:url(../images/banner.jpg);
+    background-size: cover, 50px;
+    background-position:top right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+ header img{
+    padding: 20px;
+    width: 150px;
+    padding-left: 150px;
+    background-color: black;
+    padding-right: 150px;
+}
+header h1{
+    text-align: center;
+    color: rgb(7, 110, 161);
+    font-size: xx-large;
+    font-weight: 800;
+    padding-bottom: 20px;
+    
+}
+header p{
+    text-align: center;
+    
+    
+}
+header h3{
+text-align: center;
+background-color: #f04c2f ;
+font-family: Montserrat (bold);
+font: bold;
+padding: 15px;
+margin-left: 150px;
+margin-right: 150px;    
+margin-top: 20px;
+border-radius: 5%;
+color: white;
+}
+
+article h4{
+    text-align: center;
+    color: rgb(43, 149, 202);
+    font-size: large;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+
+article p{
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 20px;
+}
+
+article img{
+    display: flex;
+    
+    background-color: white;
+    border-radius: 50%;
+   width: 200px;
+   margin-left: 100px;
+}
+.red-section{
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+    
+}
+.red-section1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    font:bold
+}
+.fondo{
+    text-align: center;
+    color: rgba(33, 163, 227, 0.899);
+    font-size: large;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.fondo-2{
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+footer{
+    display: block;
+    margin-top: 200px;
+    background-color: #25a2c3;
+    text-align: center;
+    color: white;
+
+}
+footer h1{
+    padding-top: 30px;
+    font-size: xx-large;
+}
+footer ul{
+    list-style: none;
+    padding: 20px;
+}
+footer hr{
+    width: 150px;
+}
+footer p{
+    padding: 20px;
+    padding-bottom: 60px;
+    font-size: small;
+}
