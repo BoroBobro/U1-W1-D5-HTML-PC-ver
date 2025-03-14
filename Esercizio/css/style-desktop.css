@@ -1,11 +1,9 @@
 body{
-    display: block;
-    max-width: 450px;
-    margin: 0 auto;
+    text-align: center;
     color:#6a6e71 ;
     font-size: 1.2rem;
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+max-width: 1366px;
     font-weight: 400;
     font-style: normal;
     line-height:  1.65em;
@@ -26,9 +24,9 @@ body{
  header img{
     padding: 20px;
     width: 150px;
-    padding-left: 150px;
+   
     background-color: black;
-    padding-right: 150px;
+    padding-right: 86.5%;
 }
 header h1{
     text-align: center;
@@ -48,15 +46,15 @@ text-align: center;
 background-color: #f04c2f ;
 font-family: Montserrat (bold);
 font: bold;
-padding: 15px;
-margin-left: 150px;
-margin-right: 150px;    
+padding-left: 0px;
+margin-left: 40%;
+margin-right: 40%;    
 margin-top: 20px;
 border-radius: 5%;
 color: white;
 }
 
-article h4{
+aside h4{
     text-align: center;
     color: rgb(43, 149, 202);
     font-size: large;
@@ -66,7 +64,7 @@ article h4{
     
 }
 
-article p{
+aside p{
     text-align: center;
     margin-left: 1em;
     margin-right: 1em;
@@ -78,21 +76,29 @@ article img{
     
     background-color: white;
     border-radius: 50%;
-   width: 200px;
+   width: 400px;
    margin-left: 100px;
 }
+
+    aside {
+        width: 30%;
+        margin-top: 69px;
+        padding-left:5px;
+        margin-left: 15px;
+        
+        float: right;
+      
+    
+      }
+
 .red-section{
+    margin-top: 500px;
     background-color: #e22d0e;
     color: white;
     text-align: center;
     
 }
-.red-section1{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: xx-large;
-    font:bold
-}
+
 .fondo{
     text-align: center;
     color: rgba(33, 163, 227, 0.899);
@@ -101,11 +107,25 @@ article img{
     padding-top: 40px;
     padding-bottom: 30px;
 }
+.image-container { 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+} 
+ 
+.image-item { 
+    text-align: center;
+} 
+ 
+.image-item img { 
+    max-width: 100%;
+} 
 .fondo-2{
     text-align: center;
     margin-left: 1em;
     margin-right: 1em;
 }
+
 footer{
     display: block;
     margin-top: 200px;
@@ -130,3 +150,4 @@ footer p{
     padding-bottom: 60px;
     font-size: small;
 }
+
